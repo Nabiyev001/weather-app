@@ -27,7 +27,7 @@ task()
 
 search.addEventListener("click", async () => {
     const apiKey = "3a4c6078c3d0465c816165642242911"
-    const api = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input.value.trim()}`
+    const api = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${input.value.trim()}`
     const response = await fetch(api)
     const data = await response.json()
     console.log(data.current)
