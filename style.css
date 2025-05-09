@@ -1,0 +1,79 @@
+:root {
+  --sundy-bck: #FFDD00;
+  --cloudy-bck: #B0BEC5;
+  --rainy-bck: #9E9E9E;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1461B9 !important;
+}
+body .card {
+  margin: 50px auto;
+  background-color: var(--sundy-bck);
+  width: 380px;
+  height: 480px;
+}
+body .card .input-container {
+  display: flex;
+  width: 200px;
+  background-color: #fff;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+body .card .input-container input {
+  border-radius: 30px;
+  border: none;
+  padding: 0px 10px;
+  outline: none;
+}
+body .card .input-container button {
+  margin-left: 5px;
+  color: #fff;
+  background-color: #00d0ff;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+body .card .input-container button:hover {
+  transform: scale(1.1);
+}
+body .card .car-main {
+  text-align: center;
+  display: flex;
+  margin: 0px auto;
+  color: #fff;
+  font-weight: 600;
+  flex-direction: column;
+}
+body .card .car-main h1 {
+  font-size: 30px;
+}
+body .card .car-main img {
+  width: auto;
+  margin-bottom: 20px;
+  height: 100px;
+}
+body .card .card-options {
+  display: flex;
+  justify-content: space-around;
+}
+body .card .card-options h1 {
+  font-size: 20px;
+}
+body .card .card-options img {
+  width: auto;
+  height: 70px;
+}
+body .card .card-options .column {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+body .card .card-options .column div {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */

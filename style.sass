@@ -1,0 +1,64 @@
+:root
+    --sundy-bck: #FFDD00
+    --cloudy-bck: #B0BEC5
+    --rainy-bck: #9E9E9E
+
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    background-color: #1461B9 !important
+    .card
+        margin: 50px auto
+        background-color: var(--sundy-bck)
+        width: 380px
+        height: 480px
+        .input-container
+            display: flex
+            width: 200px
+            background-color: #fff
+            margin: 50px auto
+            border-radius: 20px
+            input
+                border-radius: 30px
+                border: none
+                padding: 0px 10px
+                outline: none
+            button
+                margin-left: 5px
+                color: #fff
+                background-color: #00d0ff
+                border-radius: 30px
+                border: none
+                outline: none
+                transition: 0.2s
+                &:hover
+                    transform: scale(1.1)
+        .car-main
+            text-align: center
+            display: flex
+            margin: 0px auto 
+            color: #fff
+            font-weight: 600
+            flex-direction: column
+            h1
+                font-size: 30px
+            img
+                width: auto
+                margin-bottom: 20px
+                height: 100px
+        .card-options
+            display: flex
+            justify-content: space-around
+            h1
+                font-size: 20px
+            img
+                width: auto
+                height: 70px
+            .column
+                display: flex
+                height: auto
+                align-items: center
+                div
+                    display: flex
+                    flex-direction: column
