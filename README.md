@@ -4,21 +4,20 @@ A simple web-based Weather App that fetches weather data from a public API and d
 
 ## 🚀 Demo
 
-Live Demo: 
+Live Demo: https://weather-app-five-lac-33.vercel.app/
 
 ## ✨ Features
 
 - 🌦️ Fetch weather data for any city
 - 🌡️ Display current temperature, humidity, wind speed, and weather conditions
-- 🌍 Automatically fetch location-based weather (optional)
-- 🌙 Dark/Light mode (optional)
+- 🌍 Automatically fetch location-based weather
 
 ## 🛠️ Technologies Used
 
 - HTML5  
 - CSS3  
 - JavaScript (Fetch API)
-- [OpenWeatherMap API](https://openweathermap.org/api)
+- API Site: https://www.weatherapi.com
 
 ## 📦 Getting Started
 
